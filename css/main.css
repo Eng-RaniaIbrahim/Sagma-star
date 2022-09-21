@@ -1,0 +1,288 @@
+body{
+    direction: rtl;
+}
+.frist{
+    width:100%;
+}
+
+.navbar{
+    width:95%;
+    margin: auto;
+ 
+    z-index:999999999999999999999;
+}
+.navbar .navbar-nav{
+    padding:10px;
+}
+.navbar .navbar-nav form .btn:hover{
+background-color: blue!important;
+color:white !important
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:blue !important;
+}
+
+.navbar .navbar-brand{
+    font-size:35px;
+}
+/*===================================*/
+.Sigma{
+    width:80%;
+    margin: auto;
+  text-align: right;
+  padding-top:5px;
+}
+.Sigma .row  div .Sigma-Star h1{
+    font-size:45px;
+    padding-top:40px;
+}
+.Sigma .row  div .Sigma-Star h1:hover{
+    color:blue;
+}
+.Sigma .row  div .Sigma-Star button{
+    border:none;
+    padding:5px;
+    background-color: blue;
+    color:white;
+    width:18%;
+    border-radius: 5px;
+    
+}
+.Sigma .row  div .img1{
+    animation-name: anmation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anmation{
+    25%{
+        transform: translate(20px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    75%{
+        transform: translate(20px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.Sigma .row  div .colors{
+
+    background-color: rgb(230, 240, 240);
+    padding:5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.Sigma .row  div .colors .icon1{
+    font-size:35px;
+}
+.Sigma .row  div .colors .icon1:hover{
+    color:blue;
+}
+.Sigma .row  div .colors h2{
+    font-size:20px;
+}
+.Sigma .row  div .colors p{
+    font-size:13px;
+}
+.Sigma .row  div .header1 h1{
+    font-size:30px;
+}
+.Sigma .row  div .header1  p{
+    font-size:14px;  
+}
+/*==========================================*/
+.الخدمات{
+    background-color: rgb(230, 226, 247);
+}
+.setion2{
+    width:80%;
+    margin: auto;
+
+}
+.setion2 .setion2-header1{
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+.setion2 .setion2-header1 h1{
+    font-size:30px;
+    padding-top:15px;
+}
+.setion2 .setion2-header1 h1{
+    text-shadow: -5px -15px 4px rgb(141, 138, 138);
+}
+.setion2 .setion2-header1 p{
+    font-size:15px;
+}
+.setion2 .row div .color2{
+    background-color: white;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin: 5px;
+}
+.setion2 .row div .color2 h1{
+    font-size:20px;
+    padding-top:2px;
+}
+.setion2 .row div .color2 i{
+    font-size:30px;
+    color:blue;
+}
+.setion2 .setion2-header2{
+    width:95%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top:40px;
+}
+.setion2 .setion2-header2 h1{
+    font-size:30px;
+    padding-top:15px;
+}
+.setion2 .setion2-header2 h1{
+    text-shadow: -5px -15px 4px rgb(141, 138, 138);
+}
+.setion2 .setion2-header2 p{
+    font-size:13px;
+  
+}
+/*====================================*/
+.section3{
+    width:80%;
+    margin: auto;
+
+  
+    text-align: right;
+}
+.section3 .section3-header1{
+    width:60%;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.section3 .section3-header1 h1{
+    font-size:30px;
+    padding-top:15px;
+}
+.section3 .section3-header1 h1{
+    text-shadow: -5px -15px 4px rgb(141, 138, 138);
+}
+.section3 .section3-header1 p{
+    font-size:15px;
+}
+.section3 .row div .head1 h1{
+font-size:23px;
+}
+.section3 .row div .head1 h5{
+    font-size:15px;
+}
+.section3 .row div .icons-form{
+    font-size:25px;
+    color:blue;
+    
+}
+.contenaier .row {
+  padding:5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+.contenaier .row .col-lg-5{
+    background-color: rgb(230, 240, 240);
+    padding-top:10px;
+    border-top:2px solid blue;
+    border-bottom: 2px solid blue;
+   margin-bottom: 10px;
+
+}
+.contenaier .row .col-lg-7 .finaly{
+    background-color: rgb(230, 240, 240);
+    padding-top:10px;
+    padding:10px;
+    border-top:2px solid blue;
+    border-bottom: 2px solid blue;
+   margin-bottom: 10px;
+   padding-bottom: 30px;
+}
+.contenaier .row .col-lg-7 .finaly .row div input{
+    width:100%;
+    height: 47px;
+    border: none;
+    border-radius: 2px;
+}
+.contenaier .row .col-lg-7 .finaly .row  div  textarea{
+    width:100%;
+    height: 300px;
+    border: none;
+    border-radius: 2px;  
+}
+.contenaier .row .col-lg-7  .finaly .row .col-12 .last{
+    width:10%;
+    margin: auto;
+    padding-top:20px;
+}
+.contenaier .row .col-lg-7  .finaly .row .col-12 .last button{
+   border: none;
+   color:white;
+   padding:5px;
+   background-color:blue;
+   border-radius: 5px;
+
+}
+/*==========================================*/
+.footer{
+    background-color: rgb(230, 226, 247);
+}
+.Footer{
+    width:90%;
+    margin: auto;
+    margin-top:10px;
+    background-color: rgb(230, 226, 247);
+    overflow: hidden;
+}
+.Footer .Footer-header {
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+.Footer .Footer-header  h1{
+    font-size:35px;
+    padding:15px;
+}
+.Footer .Footer-header .lastchild{
+    padding-bottom: 15px;
+}
+.Footer .Footer-header .lastchild i{
+    font-size:20px;
+    padding:5px;
+    background-color:rgb(186, 184, 192); ;
+border-radius: 2px;
+
+}
+.Footer .Footer-header .lastchild i:hover{
+    color:white;
+    background-color: blue;
+}
+.Footer .headerleft{
+    font-size:15px;
+    float:left;
+    padding-bottom: 10px;
+}
+.Footer .headerleft span{
+    font-weight: bolder;
+}
+.Footer .headerrigth{
+    font-size:15px;
+    float:right;
+    padding-bottom: 10px;
+}
+.Footer .headerrigth span{
+    color:green;
+}
+.Footer .headerrigth span:hover{
+    color:blue;
+}

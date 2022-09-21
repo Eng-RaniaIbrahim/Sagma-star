@@ -1,0 +1,59 @@
+@media(max-width:500px){
+    .setion2 .setion2-header1{
+        width:100%;
+    }  
+    .setion2 .setion2-header1 h1{
+        font-size:25px;
+    } 
+    .setion2 .setion2-header1 p{
+        font-size:13px;
+    }
+.section3 .section3-header1{
+    width:90%;
+}
+.section3 .section3-header1 h1{
+    font-size:25px;
+}
+.section3 .section3-header1 p{
+    font-size:13px;
+}
+.section3 .section3-header1{
+    width:90%;
+}
+.contenaier .row .col-lg-5{
+    margin-bottom:40px; 
+}
+.Footer .headerleft{
+   float:none;
+   text-align: center;
+}
+.Footer .headerrigth{
+    float:none;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contenaier .row .col-lg-7 .row .col-12 .last button{
+    padding-bottom: 5px;
+}
+.navbar-nav  form button{
+   display: none;
+}
+.Sigma .row  div .Sigma-Star h1{
+ 
+    padding-top:1px;
+}
+.Sigma .row  div .Sigma-Star button{
+   margin-bottom: 10px;
+}
+}
+/*===============================*/
+@media(max-width:912px){
+    .contenaier .row .col-lg-5 {
+        margin-top: 5px;
+        margin-bottom: 10px;;
+    }
+    .Sigma .row  div .Sigma-Star h1{
+ 
+        padding-top:1px;
+    }
+}
